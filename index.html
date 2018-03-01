@@ -1,38 +1,53 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<!--bootstrap link-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 	<h1>Lyrical Trivia</h1>
 <div class="container">
-	<button type="button" class="btn btn-primary btn-lg btn-block" id="startBtn">Start</button>
+	<button type="button" class="btn btn-primary btn-lg btn-block startBtn">Start</button>
 	
 	<!--Question Page-->
-	<div class=timer></div>
+	<div class=timeLeft></div>
 
-	<div class=question></div>
+	<div class=question>question</div>
 
 	<div class="answersContainer">
-		<div class="question1">test</div>
-		<div class="question2">test</div>
-		<div class="question3">test</div>
-		<div class="question4">test</div>
+		<button class="btn btn-outline-primary" id="answer1">test</button>
+		<button class="btn btn-outline-secondary" id="answer2">test</button>
+		<button class="btn btn-outline-success" id="answer3">test</button>
+		<button class="btn btn-outline-danger" id="answer4">test</button>
+		<p class="userChoice"></p>
 	</div>
 	<!--Scoreboard-->
 
 	<div class="winnerscircle">
-		<div class="score">0</div>
+		<div class="winScore">0</div>
 	</div>
 
 	<div class="losingcircle">
-		<div class="score">0</div>
+		<div class="loseScore">0</div>
+	</div>
+	<!--Answer Responses-->
+
+	<div class="wrongmessage"></div>
+	<div class="correctmessage"></div>
+	<div class="gif"></div>
+
+	<!--Final Score Page-->
+
+	<div class="finalsscore">
+		<div class="right"></div>
+		<div class="wrong"></div>
 	</div>
 
+	<button type="button" class="btn btn-success tryagain">Try Again!</button>
+	
 
 
 
