@@ -39,18 +39,29 @@ var triviaQuestions = [{
 //	newGame();
 //});
 
-//function newGame(){
-//	currentQuestion = 0;
-//	correctAnswer = 0;
-//	incorrectAnswer = 0;
-//	playGame();
-//}
 
+function startGame(){
+	$(".question").hide()
+	$(".answer").hide()
+	$(".tryagain").hide()
+
+	$(".startBtn").on("click",function(){
+		$(".startBtn").hide();
+		$(".question").show()
+		$(".answer").show()
+		newQuestion();
+
+	})
+
+
+}
+startGame()
 
 
 
 
 function newQuestion(){
+
 	//adding 1 to var currentQuestion
 	currentQuestion++
 	//inserting the currentQuestion number to pull question umber from triviaQuestions array.
