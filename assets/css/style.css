@@ -1,7 +1,40 @@
-body{
-	background-image:url("../images/microphone.jpg");
+h1{
+	color:orange;
 }
 
 .question{
 	font-size:xx-large;
+	color:orange;
+}
+
+
+
+.winnerscircle{
+	margin-right:400px;
+	float:right;
+	color:orange;
+
+
+}
+
+.losingcircle{
+	margin-left:400px;
+	color:orange;
+}
+
+.timer{
+	color:orange;
+}
+
+.endMessage{
+	margin-left:425px;
+	color:orange;
+}
+
+
+
+
+
+body{
+	background-image:url("../images/microphone.jpg");
 }

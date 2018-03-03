@@ -11,43 +11,69 @@
 
 	<h1>Lyrical Trivia</h1>
 <div class="container">
-	<button type="button" class="btn btn-primary btn-lg btn-block col-6 startBtn">Start</button>
+	<button type="button" class="btn btn-outline-success col-4 startBtn">Start</button>
 	
-	<!--Question Page-->
-	<div class=timeLeft></div>
+	<!--game container-->
+<div class="container">
+	<div class="timer">0</div>
 
-	<div class=question>question</div>
+	<h2 class="sky question">what color is the sky?</h1>
+	<button class="sky answer" value="blue">blue</button>
+	<button class="sky answer" value="green">green</button>
+	<button class="sky answer" value="purple">purple</button>
+	<button class="sky answer" value="yellow">yellow</button>
 
-	<div class="answersContainer">
-		<button class="btn btn-outline-primary answer" id="answer1" value="1">test</button>
-		<button class="btn btn-outline-secondary answer" id="answer2" value="2">test</button>
-		<button class="btn btn-outline3-success answer" id="answer3" value="3">test</button>
-		<button class="btn btn-outline-danger answer" id="answer4" value="4">test</button>
-		<p class="userChoice"></p>
+	<h3 class="nirvana question">With the lights out, ________________, here we are now, entertain us.</h2>
+	<button class="nirvana answer" value="it's contagious">it's contagious</button>
+	<button class="nirvana answer" value="I'll arrange it">I'll arrange it</button>
+	<button class="nirvana answer" value="it's less dangerous">it's less dangrous</button>
+	<button class="nirvana answer" value="it's a stage for us">it's a stage for us</button>
+
+	<h3 class="lion question">"It's the circle of life! It's________________"</h3>
+	<button class="lion answer" value="it's all up in the air">it's all up in the air</button>
+	<button class="lion answer" value="it's now or never">it's now or never</button>
+	<button class="lion answer" value="it's light over darkness">it's light over darkness</button>
+	<button class="lion answer" value="it's the wheel of fortune">it's the wheel of fortune</button>
+
+
+	
+
+	
+
+
+
+</div>
+
+
+	
+		
+		
 	</div>
 	<!--Scoreboard-->
+<p class="endMessage">Let's see how we did!</p>
 
 	<div class="winnerscircle">
-		<div class="winScore">0</div>
+		<div class="winScore">Correct:</div>
 	</div>
 
 	<div class="losingcircle">
-		<div class="loseScore">0</div>
+		<div class="loseScore">Wrong:</div>
 	</div>
+
+	
+	
+
+
+	
 	<!--Answer Responses-->
 
-	<div class="wrongmessage"></div>
-	<div class="correctmessage"></div>
-	<div class="gif"></div>
+	
 
 	<!--Final Score Page-->
 
-	<div class="finalsscore">
-		<div class="right"></div>
-		<div class="wrong"></div>
-	</div>
 
-	<button type="button" class="btn btn-success tryagain">Try Again!</button>
+
+	
 	
 
 
@@ -60,6 +86,6 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-<script src="assets/javascript/app.js"></script>
+<script src="assets/javascript/app2.js"></script>
 
 </html>
